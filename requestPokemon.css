@@ -1,0 +1,42 @@
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+h1{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div{
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+    color: #9ec572;
+    font-size: 25px;
+}
+
+h3{
+    color: #469db1;
+    font-size: 24px;
+}
+
+h4{
+    color: #9676c7;
+    font-size: 18px;
+}
