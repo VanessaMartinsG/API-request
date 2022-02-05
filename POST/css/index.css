@@ -1,0 +1,46 @@
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+input{
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(46, 139, 86);
+    font-size: 18px;
+    width: 120px;
+    height: 28px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 5px 10px 8px #dffae1;
+}
+
+label:not([for="nome"]){
+    margin-left: 30px;
+}
+
+.campos{
+    display: flex;
+    flex-direction: row;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
