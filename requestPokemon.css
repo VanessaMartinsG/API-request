@@ -31,7 +31,7 @@ h2{
     font-size: 25px;
 }
 
-h3{
+p{
     color: #469db1;
     font-size: 24px;
 }
@@ -39,4 +39,151 @@ h3{
 h4{
     color: #9676c7;
     font-size: 18px;
+}
+
+
+/*Cores Tipo Pokemons*/
+
+div .normal {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #a8a77a;
+}
+
+div .fire {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ee8130;
+}
+
+div .water {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #6390f0;
+}
+
+div .electric {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #f7d02c;
+}
+
+div .grass {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7ac74c;
+}
+
+div .ice {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #96d9d6;
+}
+
+div .fighting {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #c22e28;
+}
+
+div .poison {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #a33ea1;
+}
+
+div .ground {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #e2bf65;
+}
+
+div .flying {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #a98ff3;
+}
+
+div .psychic {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #f95587;
+}
+
+div .bug {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #a6b91a;
+}
+
+div .rock {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #b6a136;
+}
+
+div .ghost {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #735797;
+}
+
+div .dragon {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #6f35fc;
+}
+
+div .dark {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #705746;
+}
+
+div .steel {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #b7b7ce;
+}
+
+div .fairy {
+    padding: 4px;
+    box-shadow: 5px 10px 8px #d4d4d4;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #d685ad;
 }

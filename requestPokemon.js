@@ -24,22 +24,21 @@ function creatHTML(item) {
         let div = document.createElement("div");
         let image = document.createElement("img");
         let name = document.createElement("h2");
-        // let tipo = document.createElement("h3");
- 
+        
         image.src = item.sprites.front_default;
         name.textContent = item.name;
         
-
-        // tipo.textContent = item.type.name;
-        
         div.appendChild(name);
         div.appendChild(image);
-        // div.appendChild(tipo);
+  
         main.appendChild(div);
         item.types.forEach((item) =>{
-            let types = document.createElement("h3");
+            let types = document.createElement("p");
+            types.classList.add(item.type.name);
             types.textContent = item.type.name; 
-            div.appendChild(types);
+            
+            div.appendChild(types); 
+           
         })
         
 
