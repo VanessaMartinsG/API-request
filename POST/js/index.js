@@ -45,3 +45,44 @@ function validarForm(nome, curso, materia) {
 
     return controleValidade;
 }
+
+
+// Pegar os elementos da lista e mostrar em tela
+
+let arrayItens = [];
+
+function getItens(){
+const dataArray = fetch(`${baseURL}/estudos`);
+dataArray.then((response) => response.json())
+.then((data) =>{
+    arrayItens = data;
+    creatHTML();
+});
+}
+
+function creatHTML() {
+    const main = document.querySelector("main");
+    const mural = document.createElement("div");
+    main.appendChild(mural);
+    mural.classList.add("mural");
+
+    arrayItens.forEach((item) => {
+        let div = document.createElement("div");
+        let nome = document.createElement("h2");
+        let curso = document.createElement("h3");
+        let materia = document.createElement("h4");
+
+        div.classList.add("lista");
+        
+        nome.textContent = item.nome;
+        curso.textContent = item.curso;
+        materia.textContent = item.materia;
+
+        div.appendChild(nome);
+        div.appendChild(curso);
+        div.appendChild(materia);
+        mural.appendChild(div);
+    });
+}
+
+getItens();

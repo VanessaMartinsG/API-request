@@ -59,15 +59,39 @@
   "estudos": [
     {
       "id": 1,
-      "name": "vanessa",
+      "nome": "Vanessa",
       "curso": "SI",
-      "materia": "algoritmo"
+      "materia": "Algoritmo"
     },
     {
-      "nome": "regina",
-      "curso": "arquitetura",
-      "materia": "concreto",
+      "nome": "Regina",
+      "curso": "Arquitetura",
+      "materia": "Concreto",
       "id": 2
+    },
+    {
+      "nome": "Mads",
+      "curso": "Medicina",
+      "materia": "Anatomia",
+      "id": 3
+    },
+    {
+      "nome": "Rumple",
+      "curso": "Economia",
+      "materia": "Calculo",
+      "id": 4
+    },
+    {
+      "nome": "Stela",
+      "curso": "Direito",
+      "materia": "Ética",
+      "id": 5
+    },
+    {
+      "nome": "Malu",
+      "curso": "Engenharia",
+      "materia": " Calculo",
+      "id": 6
     }
   ]
 }
