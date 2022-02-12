@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Caio",
+      "author": "monitoria"
+    },
+    {
+      "title": "Caio",
+      "author": "Bruno",
+      "id": 3
+    },
+    {
+      "title": "Xbox",
+      "author": "Playstation",
+      "id": 4
+    },
+    {
+      "title": "Teste",
+      "author": "2",
+      "id": 5
+    },
+    {
+      "title": "asda",
+      "author": "sda",
+      "id": 6
+    },
+    {
+      "title": "zvcx",
+      "author": "vxzcv",
+      "id": 7
+    },
+    {
+      "title": "ultimoTeste",
+      "author": "askdhaskd-asdasd",
+      "id": 8
+    },
+    {
+      "title": "vanessa",
+      "author": "eq",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "estudos": [
+    {
+      "nome": "Malu",
+      "curso": "Engenharia",
+      "materia": " Calculo",
+      "id": 6
+    },
+    {
+      "nome": "vanessa",
+      "curso": "Musica",
+      "materia": "Partitura",
+      "id": 7
+    }
+  ]
+}
