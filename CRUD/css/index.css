@@ -55,9 +55,10 @@ label:not([for="nome"]){
 }
 
 .lista{
-    border: 3px dotted #8faf6b;
+    border: 2px solid #cbd3c2;
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 3px 3px 3px #cfe3cb;
 }
 
 h2{
@@ -91,7 +92,8 @@ h4{
     font-size: 20px;
     color: #55ace2;
     margin-left: 40px;
-    margin-top: 0;   
+    margin-top: 0; 
+    margin-bottom: 10px; 
 }
 
 h4::before{
@@ -126,4 +128,11 @@ h4::before{
 
 label:not([for="nomeModal"]){
     margin-left: 30px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
 }
